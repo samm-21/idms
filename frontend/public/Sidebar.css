@@ -1,0 +1,15 @@
+.sidebar {
+  width: 240px;
+  height: 100vh;
+  background: #111827;
+  color: white;
+  padding: 20px;
+  position: fixed;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  margin: 15px 0;
+  text-decoration: none;
+}
