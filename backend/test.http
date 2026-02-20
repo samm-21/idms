@@ -1,0 +1,25 @@
+### Register
+# POST http://localhost:5000/api/auth/register
+# Content-Type: application/json
+
+# {
+#   "email": "admin@test.com",
+#   "password": "123456"
+# }
+
+
+### Login
+# POST http://localhost:5000/api/auth/login
+# Content-Type: application/json
+
+# {
+#   "email": "admin@test.com",
+#   "password": "123456"
+# }
+# # token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OTZmZjM0YmQ5ZWFhZDBhZjNmYmExMyIsImVtYWlsIjoiYWRtaW5AdGVzdC5jb20iLCJpYXQiOjE3NzE1MDM0NjAsImV4cCI6MTc3MTUwNzA2MH0.ZlKdto8h-HEXOrFWVG7efyafvT9unKF-q-bMVm3GWSk;
+
+
+GET http://localhost:5000/api/employees
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OTZmZjM0YmQ5ZWFhZDBhZjNmYmExMyIsImVtYWlsIjoiYWRtaW5AdGVzdC5jb20iLCJpYXQiOjE3NzE1MDM0NjAsImV4cCI6MTc3MTUwNzA2MH0.ZlKdto8h-HEXOrFWVG7efyafvT9unKF-q-bMVm3GWSk
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OTcwMjgxYmQ5ZWFhZDBhZjNmYmExYiIsImVtYWlsIjoic2FtQHRlc3QuY29tIiwiaWF0IjoxNzcxNTA0Mjk4LCJleHAiOjE3NzE1MDc4OTh9.XykJFjEo0xDw6REpbltfBJMA7ank-RcCZVNhp2HWFJo
