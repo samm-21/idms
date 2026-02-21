@@ -1,0 +1,5 @@
+/* Global app layout – Inter and component styles live in index.css and page/component CSS */
+
+.App {
+  min-height: 100vh;
+}

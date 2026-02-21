@@ -1,0 +1,44 @@
+/* Inter: loaded from index.html (Google Fonts). For local font, add files to public/assets/fonts/Inter/ and uncomment @font-face below. */
+/*
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('/assets/fonts/Inter/Inter-Variable.woff2') format('woff2-variations'),
+       url('/assets/fonts/Inter/Inter-Regular.woff2') format('woff2');
+}
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #111827;
+  background-color: #f9fafb;
+}
+
+code {
+  font-family: 'Inter', source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input, select, textarea {
+  font-family: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
